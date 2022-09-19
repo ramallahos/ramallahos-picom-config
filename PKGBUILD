@@ -14,5 +14,5 @@ sha256sums=('SKIP')
 package() {
     cd "$pkgname"
     install -d "${pkgdir}/etc/skel/.config/picom/"
-	install -Dm 644 ".bashrc" "${pkgdir}/etc/skel/.config/picom/picom.conf"
+    install -Dm 644 ".bashrc" "${pkgdir}/etc/skel/.config/picom/picom.conf"
 }
